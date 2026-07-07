@@ -1,0 +1,15 @@
+d500_node:
+  ros__parameters:
+    port: "/dev/ttyUSB0"
+    baudrate: 230400
+
+    frame_id: "lidar_link"
+    topic_name: "/scan"
+
+    range_min: 0.03
+    range_max: 12.0
+    scan_frequency: 10.0
+
+    clockwise: true
+    angle_offset_deg: 0.0
+    bins: 720

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2_ldlidar_d500</name>
+  <version>0.1.0</version>
+  <description>ROS2 driver for the LDLiDAR D500 publishing sensor_msgs/LaserScan.</description>
+
+  <maintainer email="samuel16.gendre@gmail.com">Samuel Gendre</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
