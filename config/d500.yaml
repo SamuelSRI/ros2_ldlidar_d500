@@ -3,7 +3,7 @@ d500_node:
     port: "/dev/ttyUSB0"
     baudrate: 230400
 
-    frame_id: "lidar_link"
+    frame_id: "lidar_360_link"
     topic_name: "/scan"
 
     range_min: 0.03
